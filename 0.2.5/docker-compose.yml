@@ -14,7 +14,7 @@
     - ".:/usr/src/myapp"
     working_dir: /usr/src/myapp
     command: >
-        bash -c "java -jar klov-0.2.5jar"
+        bash -c "java -jar klov-0.2.5.jar"
     links:
     - mongo
     
