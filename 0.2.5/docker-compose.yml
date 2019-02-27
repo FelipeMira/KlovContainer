@@ -1,4 +1,4 @@
-  mongo:
+  mongoKlov:
     image: mongo
     restart: always
     hostname: mongodb
@@ -16,5 +16,5 @@
     command: >
         bash -c "java -jar klov-0.2.5.jar"
     links:
-    - mongo
+    - mongoKlov
     
